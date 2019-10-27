@@ -1,4 +1,4 @@
-current_version: "201910.0"
+current_version: "201910.1"
 strategy: "calver"
 tag: True
 tag_format: "v{version}"
