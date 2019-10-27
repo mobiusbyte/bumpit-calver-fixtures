@@ -1,7 +1,7 @@
-current_version: 201910.0 
-strategy: calver 
+current_version: "201910.0"
+strategy: "calver"
 tag: True
-tag_format: v{version}
+tag_format: "v{version}"
 tracked_files:
   - README.md
   - sample/VERSION
