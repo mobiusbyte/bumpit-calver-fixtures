@@ -2,6 +2,7 @@ current_version: "201910.1"
 strategy: "calver"
 tag: True
 tag_format: "v{version}"
+auto_remote_push: True
 tracked_files:
   - README.md
   - sample/VERSION
