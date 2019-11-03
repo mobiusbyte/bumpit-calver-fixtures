@@ -1,7 +1,11 @@
-current_version: "201910.4.0"
-strategy: "calver"
-tag: True
-tag_format: "v{version}"
+current_version: "201911.0.0"
+strategy:
+  name: "calver"
+  part: "auto"
+  version_format: "YYYYMM.MINOR.MICRO"
+tag:
+  apply: True
+  format: "v{version}"
 auto_remote_push: True
 tracked_files:
   - README.md
