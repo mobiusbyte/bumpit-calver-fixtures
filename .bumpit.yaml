@@ -1,8 +1,10 @@
-current_version: "201911.1.0"
+current_version: "201911.2.0"
 strategy:
   name: "calver"
   part: "auto"
   version_format: "YYYYMM.MINOR.MICRO"
+commit:
+  author: "Jill San Luis <jill.devs@gmail.com>"
 tag:
   apply: True
   format: "v{version}"
